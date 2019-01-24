@@ -15,7 +15,13 @@
         $a=25;
         $b=75;
         addition($a,$b);
-
+	function subtraction($c,$d)
+		$diff=$c-$d;
+		echo "<p> The difference of $c and $d is: $diff <p>"
+}
+	$e=23;
+	$f=24;
+	subtraction($e,$f);
 ?>
 </body>
 </html>
